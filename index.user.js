@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Filmow-v2
-// @version      1585523554885
+// @version      1585524479193
 
 // @match        *://filmow.com/*
 

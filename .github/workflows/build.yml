@@ -11,7 +11,8 @@ jobs:
     - uses: actions/checkout@master
     - name: Build
       run: |
-        npm run build...
+        npm install
+        npm run build
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
