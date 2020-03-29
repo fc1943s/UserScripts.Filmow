@@ -9,6 +9,9 @@
         <Compile Include="Program.fs" />
         <Content Include="package.json" />
         <Content Include="update-version.js" />
+        <Content Include="README.md" />
+        <Content Include="webpack.config.js" />
+        <Content Include="index.user.js" />
     </ItemGroup>
 
 </Project>

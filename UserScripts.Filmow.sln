@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestProject", "TestProject.fsproj", "{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UserScripts.Filmow", "UserScripts.Filmow.fsproj", "{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

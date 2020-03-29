@@ -1,5 +1,5 @@
-﻿namespace TestProject
+﻿namespace UserScripts.Filmow
 
 module Program =
-    
-    printfn "v1"
+    printfn "v2"
+

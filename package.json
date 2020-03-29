@@ -1,8 +1,8 @@
 {
-  "name": "test-fs",
+  "name": "userscripts-filmow-fs",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/app.js",
   "scripts": {
     "build": "node update-version.js && webpack -p"
   },
