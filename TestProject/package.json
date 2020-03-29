@@ -4,8 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "webpack": "webpack",
-    "compile": "node compile.js"
+    "build": "node update-version.js && webpack -p"
   },
   "devDependencies": {
     "webpack": "^4.42.0",
@@ -15,6 +14,8 @@
     "babel-loader": "^8.0.6",
     
     "fable-loader": "^2.1.8",
-    "fable-compiler": "^2.4.19"
+    "fable-compiler": "^2.4.19",
+    
+    "replace-in-file": "^5.0.2"
   }
 }

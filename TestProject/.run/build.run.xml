@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build" type="RunNativeExe" factoryName="Native Executable">
+    <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../Program Files (x86)/Yarn/bin/yarn.cmd" />
+    <option name="PROGRAM_PARAMETERS" value="run build" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestProject" />
+    <option name="PASS_PARENT_ENVS" value="1" />
+    <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    <method v="2" />
+  </configuration>
+</component>
