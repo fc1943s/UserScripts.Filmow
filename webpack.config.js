@@ -1,5 +1,5 @@
 let CONFIG = {
-    fsharpEntry: './TestProject.fsproj',
+    fsharpEntry: './UserScripts.Filmow.fsproj',
     outputDir: './dist',
     babel: {
     //     presets: [
