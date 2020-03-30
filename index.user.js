@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         UserScripts.Filmow
-// @version      1585526708088
+// @version      1585527070553
 
 // @match        *://filmow.com/*
 
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @require      dist/app.js?v=1585526596128
+// @require      dist/app.js?15855265961281585527070553
 
 // @grant        none
 // ==/UserScript==
