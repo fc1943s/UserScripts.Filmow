@@ -50,16 +50,20 @@ module Program =
                 |> JQuery.select
                 |> fun x -> x?html "Load all movies"
             else
+                printfn "movie len: %A" movies?length
+                
                 let random = Random().Next (0, movies?length - 1)
+                
+                printfn "random: %A" random
                 
                 let movieName =
                     ".movie_list_item"
                     |> JQuery.select
                     |> fun x -> x?eq(random)?find("img")?attr("alt")
-                    |> fun x -> x.[1]
+                    |> fun x -> x?substring (1, 2)
                 
                 "#random_result"
                 |> JQuery.select
-                fun x -> x?html (sprintf "%d - %s" random movieName)
+                |> fun x -> x?html (sprintf "%d - %s" random movieName)
     
 
