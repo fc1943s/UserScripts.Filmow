@@ -10,5 +10,5 @@
 // @grant        none
 // ==/UserScript==
 
-console.log('UserScript loaded (Filmow)');
+console.log('UserScripts.Filmow loaded (index.user.js)');
 

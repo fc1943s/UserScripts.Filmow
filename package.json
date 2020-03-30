@@ -3,6 +3,13 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fc1943s/UserScripts.Filmow.git"
+  },
+  "author": "fc1943s",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "build": "webpack -p && node update-version.js"
   },
