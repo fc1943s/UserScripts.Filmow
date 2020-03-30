@@ -1,0 +1,18 @@
+version 5.226.0
+
+framework: netcoreapp3.1, netstandard2.0
+
+group Main
+    storage: none
+    source https://api.nuget.org/v3/index.json
+
+    nuget FSharp.Core ~> 4.7
+
+
+group UserScripts.Filmow
+    storage: none
+    source https://api.nuget.org/v3/index.json
+
+    nuget Fable.FontAwesome.Free ~> 2.1
+
+

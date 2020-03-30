@@ -1,5 +1,10 @@
 ﻿namespace UserScripts.Filmow
 
+open Fable.Core
+
 module Program =
-    printfn "v7"
+    JsInterop.importAll "index.scss"
+    
+    
+    printfn "v8"
 

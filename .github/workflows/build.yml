@@ -9,16 +9,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+
+    - name: Restore
+    uses: actions/setup-dotnet@v1
+    with:
+      dotnet-version: 3.1.101
+ 
+      - name: Restore tools
+        run: dotnet tool restore
+ 
+      - name: Restore Paket dependencies
+        run: dotnet paket restore
+
     - name: Build
       run: |
         npm install
         npm run build
+        
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Build" -a
+        
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+
