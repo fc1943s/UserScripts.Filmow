@@ -6,7 +6,7 @@ open Fable.Core
 open Fable.Core.JsInterop
 
 module JQuery = 
-    [<Emit("window['$']($0)")>]
+    [<Emit("window['jQuery']($0)")>]
     let select : selector:string -> obj = jsNative
     
 module Filmow =

@@ -11,7 +11,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack -p && node update-version.js"
+    "build": "webpack -p && node update-version.js index.user.js",
+    "build-local": "webpack -p && node update-version.js local.user.js && node build-local.js"
   },
   "devDependencies": {
     "webpack": "^4.42.0",

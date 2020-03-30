@@ -3,7 +3,7 @@ let replace = require('replace-in-file');
 let main = async () => {
     try {
         let results = await replace({
-            files: 'index.user.js',
+            files: process.argv[2],
             from: [ 
                 /(version *)(\d{13}) *$/gm, 
                 /(v=)(\d{13}) *$/gm 
