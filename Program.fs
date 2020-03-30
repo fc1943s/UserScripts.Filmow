@@ -3,7 +3,7 @@
 open Fable.Core
 
 module Program =
-    JsInterop.importAll "index.scss"
+    JsInterop.importAll "./index.scss"
     
     
     printfn "v8"

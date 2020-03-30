@@ -21,11 +21,11 @@ jobs:
     - name: Restore Paket dependencies
       run: dotnet paket restore
       
-    - name: npm install
-      run: npm install
+    - name: yarn install
+      run: yarn install
 
     - name: Build
-      run: npm run build
+      run: yarn run build
 
     - name: Commit files
       run: |
