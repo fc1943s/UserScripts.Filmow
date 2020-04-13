@@ -1,44 +1,19 @@
 local.user.js
 
 ### Local settings
-
-# ide settings
-**/.idea/*
-!**/.idea/*/
-**/.idea/*/*
-!**/.idea/*/.idea/
-!**/.idea/*/.idea/runConfigurations/**
-
-# user configurations
+# IDE settings
+.idea/
+# User configurations
 *.user
 
-
-
-### .net
-
-obj/
+### .NET
 bin/
-nupkg/
-packages/
-!/packages/
-
-.fake/
+obj/
 .paket/
 paket-files/
 
-
-
-### JavaScript
-
-# npm packages
+### JS
 node_modules/
-
-
-
-### Mixed
-
-#dist/
-logs/
 
 
 

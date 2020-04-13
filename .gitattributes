@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+
+yarn.lock merge=ours
+package-lock.json merge=ours
+paket.lock merge=ours
+
+dist/app.js merge=ours
