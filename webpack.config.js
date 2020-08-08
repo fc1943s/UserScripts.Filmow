@@ -1,16 +1,18 @@
 let CONFIG = {
     fsharpEntry: './UserScripts.Filmow.fsproj',
     outputDir: './dist',
+    assetsDir: './public',
     babel: {
-    //     presets: [
+        presets: [
     //         ["@babel/preset-env", {
     //             "targets": {"node": "12"},
     //             "modules": false,
     //             "useBuiltIns": "usage",
     //             "corejs": 3,
     //         }],
-    //     ],
-    }
+            ["@babel/preset-react", {}]
+        ],
+}
 };
 
 let path = require("path");
@@ -54,7 +56,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.[tj]sx?$/,
+                test: /\.jsx?$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',

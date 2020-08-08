@@ -3,6 +3,6 @@ root = true
 [*]
 insert_final_newline = true
 
-[{package.json}]
+[{package.json, *.[tj]sx?}]
 indent_style = space
 indent_size = 2
