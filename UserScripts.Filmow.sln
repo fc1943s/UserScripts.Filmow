@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UserScripts.Filmow", "UserScripts.Filmow.fsproj", "{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UserScripts.Filmow", "UserScripts.Filmow.fsproj", "{A1F1A633-DDCB-4C7C-B17D-4E4D690AE73F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F6C762E-E3E2-4AD7-AF98-A149C50DC555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F1A633-DDCB-4C7C-B17D-4E4D690AE73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F1A633-DDCB-4C7C-B17D-4E4D690AE73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F1A633-DDCB-4C7C-B17D-4E4D690AE73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F1A633-DDCB-4C7C-B17D-4E4D690AE73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

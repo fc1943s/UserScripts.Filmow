@@ -11,8 +11,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack -p && node update-version.js index.user.js",
-    "build-local": "webpack -p && node update-version.js local.user.js && node build-local.user.js"
+    "build": "webpack -p && node update-version.js filmow.user.js",
+    "build-dev": "webpack -p && node update-version.js filmow-dev.user.js && node build-dev.js"
   },
   "dependencies": {
     "react": "^16.13",

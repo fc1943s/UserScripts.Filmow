@@ -15,17 +15,19 @@ jobs:
       with:
         dotnet-version: 5.0.100-preview.2
 
+
     - name: Restore tools
       run: dotnet tool restore
 
     - name: Restore Paket dependencies
       run: dotnet paket restore
-      
+
     - name: yarn install
       run: yarn install
 
     - name: Build
       run: yarn run build
+
 
     - name: Commit files
       run: |

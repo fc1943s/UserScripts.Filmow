@@ -99,8 +99,8 @@ module Main =
         printfn "UserScripts.Filmow loaded (Main.fs)"
 
         importAll "./index.scss"
-        importAll "./public/index.js"
-        importAll "./public/index.jsx"
+        importAll "./index.js"
+        importAll "./index.jsx"
 
         JQuery.ready (fun () ->
             Filmow.startAsync

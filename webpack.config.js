@@ -1,7 +1,7 @@
 let CONFIG = {
     fsharpEntry: './UserScripts.Filmow.fsproj',
     outputDir: './dist',
-    assetsDir: './public',
+    assetsDir: './src',
     babel: {
         presets: [
     //         ["@babel/preset-env", {

@@ -6,17 +6,31 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Main.fs" />
-    <Content Include="package.json" />
-    <Content Include="update-version.js" />
-    <Content Include="README.md" />
-    <Content Include="webpack.config.js" />
-    <Content Include="index.user.js" />
-    <Content Include="index.scss" />
-    <Content Include="paket.dependencies" />
-    <Content Include="paket.references" />
+    <Content Include=".config\dotnet-tools.json" />
     <Content Include=".github\workflows\build.yml" />
-    <Content Include="build-local.user.js" />
+    <Content Include="README.md" />
+    <Content Include=".gitignore" />
+    <Content Include=".gitattributes" />
+    <Content Include=".editorconfig" />
+    <Content Include="filmow.user.js" />
+    <Content Include="filmow-dev.user.js" />
+    <Content Include="update-version.js" />
+    <Content Include="build-dev.js" />
+    <Content Include="index.html" />
+    <Content Include="src\index.jsx" />
+    <Content Include="src\index.js" />
+    <Content Include="src\index.scss" />
+    <Compile Include="src\Main.fs" />
+    <Content Include="dist\app.js" />
+    <Content Include="paket.dependencies" />
+    <Content Include="paket.lock" />
+    <Content Include="paket.references" />
+    <Content Include="package.json" />
+    <Content Include="yarn.lock" />
+    <Content Include="webpack.config.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove=".run\**" />
   </ItemGroup>
   <Import Project=".paket\Paket.Restore.targets" />
 </Project>
